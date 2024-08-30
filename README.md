@@ -1,20 +1,20 @@
-# algo
-
 # Data Structures and Algorithms
 
 Welcome to the **Data Structures and Algorithms** repository! This repository contains resources and documentation on various data structures and algorithms, including their implementations and usage.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Data Structures](#data-structures)
-  - [Heap](#heap)
-  - [Binary Tree](#binary-tree)
-- [Algorithms](#algorithms)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Data Structures and Algorithms](#data-structures-and-algorithms)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Data Structures](#data-structures)
+    - [Heap](#heap)
+    - [Binary Tree](#binary-tree)
+  - [Algorithms](#algorithms)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
