@@ -6,7 +6,9 @@ const graph = {
   4: [3],
 };
 
-// 深度优先遍历
+// depth first search (recursive)
+// step 1: in each visiting node, visit all its unvisited connected nodes
+// step 2: for each unvisited connected node, repeat step 1 untill the visiting node has no unvisited connected node
 {
   const visited = new Set();
   const dfs = (n) => {
@@ -14,17 +16,18 @@ const graph = {
     visited.add(n); // 访问过添加记录
     graph[n].forEach((c) => {
       if (!visited.has(c)) {
-        // 判断是否访问呢过
+        // 判断是否访问过
         dfs(c);
       }
     });
   };
 }
 
-// 广度优先遍历
+// breadth first search
+// in each loop, access the "first" node in the queue and add all its unvisited connected nodes in the queue for visiting later
 {
   const visited = new Set();
-  const dfs = (n) => {
+  const bfs = (n) => {
     visited.add(n);
     const q = [n];
     while (q.length) {
