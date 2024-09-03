@@ -4,8 +4,7 @@ class DijstrasAlgo extends WeightedGraph {
   djikstraAlgorithm(startNode) {
     let distances = {};
 
-    // Stores the reference to previous nodes
-    let prev = {};
+    let prev = {}; //An object to keep track of the previous node for each node, which helps reconstruct the shortest path later.
     let pq = new PriorityQueue(this.nodes.length * this.nodes.length);
 
     // Set distances to all nodes to be infinite except startNode
