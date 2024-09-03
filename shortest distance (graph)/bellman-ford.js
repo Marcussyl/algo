@@ -1,4 +1,4 @@
-const WeightedGraph = require("./WeightedGraph");
+const WeightedGraph = require("../WeightedGraph");
 
 // Javascript program for Bellman-Ford's single source
 // shortest path algorithm.

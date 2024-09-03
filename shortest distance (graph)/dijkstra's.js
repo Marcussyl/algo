@@ -1,4 +1,4 @@
-const WeightedGraph = require("./WeightedGraph");
+const WeightedGraph = require("../WeightedGraph");
 
 class DijstrasAlgo extends WeightedGraph {
   djikstraAlgorithm(startNode) {
