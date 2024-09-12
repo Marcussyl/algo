@@ -5,6 +5,9 @@
 // In this implementation, the h-value (heuristic value) is calculated
 // using the Euclidean distance between the current cell and the destination.
 
+// Time Complexity: O(E), where E is the number of edges in the graph.
+// Space Complexity: O(V), where V is the number of vertices in the graph.
+
 let ROW = 9;
 let COL = 10;
 

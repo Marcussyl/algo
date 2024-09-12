@@ -9,6 +9,15 @@ const WeightedGraph = require("../WeightedGraph");
 // also detects negative weight cycle
 // The row graph[i] represents i-th edge with
 // three values u, v and w.
+
+// Time Complexity when graph is connected:
+// Best Case: O(E), when distance array after 1st and 2nd relaxation are same , we can simply stop further processing
+// Average Case: O(V*E)
+// Worst Case: O(V*E)
+// Time Complexity when graph is disconnected:
+// All the cases: O(E*(V^2))
+// Auxiliary Space: O(V), where V is the number of vertices in the graph.
+
 function BellmanFord(graph, V, E, src) {
   // Initialize distance of all vertices as infinite.
   var dis = Array(V).fill(1000000000);
