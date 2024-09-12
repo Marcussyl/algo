@@ -17,6 +17,10 @@
 // Time Complexity: O(V3), where V is the number of vertices in the graph and we run three nested loops each of size V
 // Auxiliary Space: O(V2), to create a 2-D matrix in order to store the shortest distance for each pair of nodes.
 
+// Note: 
+// 1. The order of considering intermediate vertices doesn't matter. If there's a shorter path using multiple intermediates, we'll find it regardless of the order we process them in.
+// 2. Dynamic Programming is used to store the shortest path information in a matrix.
+
 // A JavaScript program for Floyd Warshall All
       // Pairs Shortest Path algorithm.
 
