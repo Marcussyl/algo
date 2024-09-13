@@ -23,7 +23,7 @@ function BellmanFord(graph, V, E, src) {
   var dis = Array(V).fill(1000000000);
 
   // initialize distance of source as 0
-  dis[src] = 0;
+  dis[src] = 0; 
 
   // Relax all edges |V| - 1 times. A simple
   // shortest path from src to any other
