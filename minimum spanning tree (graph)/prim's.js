@@ -1,3 +1,17 @@
+// source: https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
+
+// Introduction:
+// Prim's algorithm is a greedy algorithm used to find the minimum spanning tree
+// of a weighted, undirected graph. A minimum spanning tree is a subset of edges
+// that connects all vertices in the graph with the minimum total edge weight.
+// The algorithm works by starting from an arbitrary vertex and repeatedly adding
+// the lowest-weight edge that connects a vertex in the tree to a vertex outside
+// the tree. This process continues until all vertices are included in the tree,
+// resulting in a minimum spanning tree.
+
+// Time Complexity: O(E*log(E)) where E is the number of edges
+// Auxiliary Space: O(V^2) where V is the number of vertex
+
 const WeightedGraph = require("../WeightedGraph");
 
 class PrimsAlgo extends WeightedGraph {
